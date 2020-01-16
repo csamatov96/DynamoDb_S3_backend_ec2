@@ -1,5 +1,5 @@
 resource "aws_dynamodb_table" "terraform_state_lock" {
-  name           = var.dynamo_name
+  name           = "dynamo"
   read_capacity  = 5
   write_capacity = 5
   hash_key       = "LockID"
