@@ -1,4 +1,4 @@
 resource "aws_instance" "ec2_instance" {
-    ami = "ami-0ff760d16d9497662"
+    ami = "ami-062f7200baf2fa504"
     instance_type = "${var.instance_type}"
 }
