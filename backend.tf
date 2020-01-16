@@ -1,4 +1,4 @@
-terraform {
+/*terraform {
   backend "s3" {
     bucket = "terraform-state-backend"
     key = "terraform"
@@ -6,3 +6,4 @@ terraform {
     dynamodb_table = "dynamo"
   }
 }
+*/
